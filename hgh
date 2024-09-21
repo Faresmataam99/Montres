@@ -1,0 +1,14 @@
+  <nav>
+        <div class="content">
+          <h1>Le nomade</h1>
+          <h4>
+            Luxurius watches that reflects the astonishing look of a watch
+          </h4>
+        </div>
+        <div class="container">
+          <li>About us</li>
+          <li>Find a dealer</li>
+          <li>Customize your watch</li>
+          <li>Our legacy</li>
+        </div>
+      </nav>

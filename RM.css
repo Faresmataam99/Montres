@@ -1,0 +1,170 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav{
+ font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+display: flex;
+align-items: center;
+justify-content: space-between;
+align-content: space-between;
+font-size: 100%;
+padding: 5px;
+
+  }
+
+  .EE{
+    color: white;
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  }
+  .W{
+   cursor: pointer;
+   transition: all 200ms;
+   margin: 20px;
+  }
+  .W:hover{
+    box-shadow: white 5px 5px 10px;
+  }
+  
+  section{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  justify-content: space-between;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    transition: all 200ms;
+  }
+  li:hover{
+    cursor: pointer;
+    color: rgb(9, 22, 112);
+    
+  }
+  .detail{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 50px;
+    gap: 50px;
+  }
+  .detail h1{
+    font-size: 250%;
+  }
+.oister{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: row;
+  gap: 60px;
+}
+.Collection{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  flex-direction: row;
+  background-color: white;
+  margin: 20px;
+}
+footer h2{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.cards{
+  background-image: url(c78d33d12c936568bcee29c914e95f27.jpg);
+  padding: 40px;
+}
+.cards.card-text{
+  color: bisque;
+}
+.card-text{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.card-title{
+  display: flex;
+  align-items: center;
+}
+.btnbtn-primary{
+  background-color: rgb(7, 58, 7);
+  color: white;
+  border-radius: 30px;
+  padding: 20px;
+  text-decoration: none;
+  transition: all 200ms;
+  margin: 30px;
+  border: none;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+width: 250px;
+}
+.btnbtn-primary:hover{
+color: rgb(7, 58, 7);
+background-color: bisque
+}
+@media only screen and (max-width: 768px){
+  header{
+    padding: 20px 50px;
+  }
+  .container-fluid{
+    display: none;
+  }
+  header nav{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .menu{
+    display: flex;
+  }
+  
+}
+@media only screen and (max-width: 600px){
+  .EE{
+    flex-direction: column;
+  }
+  }
+
+  
